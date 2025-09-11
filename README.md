@@ -4,8 +4,7 @@ A collection of fun, interactive web-based mini games built with HTML, CSS, and 
 
 These are simple, lightweight games meant to practice web development skills and explore UI/UX design concepts.
 
-Games Included
-
+Games Included:
 Tic Tac Toe 🟢❌
 
 
