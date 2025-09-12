@@ -6,7 +6,7 @@ These are simple, lightweight games meant to practice web development skills and
 
 Games Included:
      
-Tic Tac Toe 🟢❌ : https://tic-tac-toe-by-saikirankadaparthi.netlify.app/
+Tic Tac Toe 🟢❌ : https://saikiran-kadaparthi.github.io/Web-based-mini-games/TicTac Toe/
 
 
 
