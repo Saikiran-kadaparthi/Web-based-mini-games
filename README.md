@@ -7,6 +7,7 @@ These are simple, lightweight games meant to practice web development skills and
 Games Included:
      
 Tic Tac Toe 🟢❌ : https://saikiran-kadaparthi.github.io/Web-based-mini-games/Tic%20Tac%20Toe/
+Guess the Number 🎲🎯 : https://saikiran-kadaparthi.github.io/Web-based-mini-games/Guess-the-Number/
 
 
 
