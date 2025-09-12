@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.header{
+    padding: 15px 30px;
+    background-color: #333333;
+    color: white;
+    font-size: clamp(6px, 2vw, 20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.restart{
+
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem ;
+    font-size: clamp(12px, 1.5vw, 16px);;
+    border-radius: 2rem;
+    border: none;
+    color: black;
+    background-color: #ff9900;
+    cursor: pointer;
+}
+
+.game-card{
+    width: 40vw;
+    max-width: 400px;
+    height: 30vh;
+    max-height: 300px;
+    min-width: 50px;
+    background: #6e6e6e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 30%;
+    justify-content: flex-start;
+    padding: 60px;
+    flex-direction: column;
+    border: 2px solid  rgb(80, 68, 68);
+}
+
+.game-card input{
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-radius: 100px;
+    width: 80%;
+    margin-top: 15px;
+    height: 8%;
+    max-height: 25px;
+    min-width: 150px;
+    max-width: 350px;
+    padding: 5px 5px 5px 15px;
+    font-size: 15px;
+    border: 2px solid black;
+
+}
+
+.display{
+    color: white;
+    font-size: clamp(15px, 2vw, 25px);
+    color: #fff;
+    font-weight: 900;
+}
+
+.enter{
+    border: none;
+    border-radius: 100px;
+    background: aqua;
+    /* width: 30%;
+    height: 10%; */
+    padding: 1px;
+    min-width: 100px;
+    min-height: 30px;
+    cursor: pointer;
+}
