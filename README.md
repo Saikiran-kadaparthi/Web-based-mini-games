@@ -6,7 +6,7 @@ These are simple, lightweight games meant to practice web development skills and
 
 Games Included:
      
-Tic Tac Toe 🟢❌ : https://saikiran-kadaparthi.github.io/Web-based-mini-games/Tic Tac Toe
+Tic Tac Toe 🟢❌ : https://saikiran-kadaparthi.github.io/Web-based-mini-games/Tic-Tac-Toe
 
 
 
