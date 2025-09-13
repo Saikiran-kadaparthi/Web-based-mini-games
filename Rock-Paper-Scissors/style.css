@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding: 15px 30px;
+    background-color: #333333;
+    color: white;
+    font-size: clamp(6px, 1.5vw, 20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.restart{
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem ;
+    font-size: clamp(12px, 1.5vw, 16px);;
+    border-radius: 2rem;
+    border: none;
+    color: black;
+    background-color: #ff9900;
+    cursor: pointer;
+}
+
+.game-card{
+    width: 60vw;
+    height: 50vh;
+    max-height: 500px;
+    min-width: 50px;
+    max-width: 600px;
+    background: #6e6e6e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10%;
+    justify-content: center;
+    padding: 60px;
+    flex-direction: row;
+    border: 2px solid  rgb(80, 68, 68);
+}
+
+.Your-card,
+.computer-card {
+    background-color: #fff;
+    width: 40%;
+    aspect-ratio: 1 / 1;
+    min-width: 150px;
+    max-width: 250px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: clamp(16px, 1.5vw, 30px);
+    border: 2px solid rgb(0, 0, 0);
+    flex-direction: column;
+
+}
+
+.your_choice_selector{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    width: 35%;
+    height: 10%;
+    transform: translate(-50%);
+    background-color: rgb(95, 206, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-width: 250px;
+    max-width: 450px;
+    border-radius: 100px;
+}
+
+.rock,
+.paper,
+.scissors {
+    height: 75%;
+    aspect-ratio: 2/2;
+    border-radius: 50%;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.display {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    font-size: clamp(10px, 4vw, 30px);
+    transform: translate(-50%);
+}
+
+.your_choice,
+.computer_choice
+{
+    font-size: clamp(25px, 1.5vw, 30px);
+
+}
+
+.wins{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: clamp(10px, 1.5vw, 30px);
+
+}
+
+.VS{
+    position: absolute;
+    font-size: clamp(15px, 2.5vw, 30px);
+    color: white;
+}
+
