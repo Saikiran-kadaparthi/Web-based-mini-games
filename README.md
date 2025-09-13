@@ -10,6 +10,8 @@ Tic Tac Toe 🟢❌ : https://saikiran-kadaparthi.github.io/Web-based-mini-games
 
 Guess the Number 🎲🎯 : https://saikiran-kadaparthi.github.io/Web-based-mini-games/Guess-the-Number/
 
+Rock-Paper-Scissors ✌️👊✋: https://saikiran-kadaparthi.github.io/Web-based-mini-games/Rock-Paper-Scissors/
+
 
 
 Features :
