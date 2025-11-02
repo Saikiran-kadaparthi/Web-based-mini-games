@@ -12,6 +12,8 @@ Guess the Number 🎲🎯 : https://saikiran-kadaparthi.github.io/Web-based-mini
 
 Rock-Paper-Scissors ✌️👊✋: https://saikiran-kadaparthi.github.io/Web-based-mini-games/Rock-Paper-Scissors/
 
+Flip-Cards 🔄🎴 : https://saikiran-kadaparthi.github.io/Web-based-mini-games/Flip-Cards/
+
 
 
 Features :
