@@ -19,10 +19,6 @@ h1{
     font-size: 5vh;
     color: rgb(0, 0, 0);
 }
-h2{
-    font-size: 3rem;
-    color: black;
-}
 .game{
     display: flex;
     flex-direction: column;
@@ -41,13 +37,8 @@ h2{
     border: 1px solid black;
     cursor: pointer;
     transition: transform 0.2s, background 0.2s, color 0.2s;
-    margin: 0px 0px 0px 100px ;
 }   
-.reset:hover{
-    transform: scale(1.2);
-    background: #a13d82;
-    color: white;
-}
+
 
 .main-box{
     height: 50vh;
@@ -61,8 +52,8 @@ h2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    width: 90vmin;
-    height: auto;
+    width: 90vw;
+    /* height: auto; */
     max-width: 400px;
     min-width: none;
     max-height: 400px;
@@ -76,7 +67,7 @@ h2{
     border: none;
     box-shadow: 0 0 15px 2px rgb(121, 121, 121);
     width: 100%; 
-    height: 120px;
+    /* height: 120px; */
     cursor: pointer;
     font-size: 5vmin;
     font-weight: 100;
@@ -84,17 +75,25 @@ h2{
     color: rgb(255, 255, 255);
     
 }
+.options
+{
+    display: flex;
+    position: absolute;
+    right: 60px;
+    top : 50px;
+}
 
 .theme-outer{
     width: 5rem;
     background: rgb(0, 0, 0);
-    position: absolute;
+    /* position: absolute;
     top: 10px;
+    right: 50px; */
     padding: 5px;
-    right: 50px;
     border-radius: 100px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     transition: background 0.5s;
     cursor: pointer;
 }
@@ -104,7 +103,7 @@ h2{
     background-color: #fff;
     border-radius: 50%;
     transition: transform 0.5s, background 0.5s;
-        /* transform: translateX(3.3rem); */
+    /* transform: translateX(3.3rem); */
 
 }
 
@@ -139,4 +138,15 @@ body.dark h1,
 body.dark h2
 {
     color: white;
+}
+
+
+@media screen and (max-width : 250px) 
+{
+
+    .options
+    {
+        right: 1px;
+    }
+    
 }
